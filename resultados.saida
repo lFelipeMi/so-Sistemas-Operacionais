@@ -1,0 +1,42 @@
+Testes com potências de 2:
+Num Threads/Processos     Tempo Threads (s)         Tempo Processos (s)      
+---------------------------------------------------------------------------
+1                         0.1166                    0.1232                   
+2                         0.1147                    0.0595                   
+4                         0.1131                    0.0663                   
+8                         0.1165                    0.0716                   
+16                        0.1164                    0.0748                   
+32                        0.1253                    0.0875                   
+64                        0.1306                    0.1139                   
+128                       0.1320                    0.1655                   
+256                       0.1496                    0.2759                   
+512                       0.1710                    FALHA                    
+
+Testes de 300 a 1000:
+Num Threads/Processos     Tempo Threads (s)         Tempo Processos (s)      
+---------------------------------------------------------------------------
+300                       0.1654                    0.3236                   
+400                       0.1644                    0.3971                   
+500                       0.1657                    0.6033                   
+600                       0.1901                    FALHA                    
+700                       0.2029                    FALHA                    
+800                       0.3572                    FALHA                    
+900                       0.2442                    FALHA                    
+1000                      0.3285                    FALHA                    
+
+Resultados incrementais entre 500 e 512:
+Num Threads/Processos     Tempo Processos (s)      
+--------------------------------------------------
+500                       0.7716                   
+501                       0.8709                   
+502                       0.8644                   
+503                       0.8624                   
+504                       FALHA                    
+505                       FALHA                    
+506                       FALHA                    
+507                       FALHA                    
+508                       FALHA                    
+509                       FALHA                    
+510                       FALHA                    
+511                       FALHA                    
+512                       FALHA                    
